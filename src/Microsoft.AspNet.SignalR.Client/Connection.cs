@@ -31,7 +31,7 @@ namespace Microsoft.AspNet.SignalR.Client
     public class Connection : IConnection, IDisposable
     {
         internal static readonly TimeSpan DefaultAbortTimeout = TimeSpan.FromSeconds(30);
-
+	//try it
         private static Version _assemblyVersion;
 
         private IClientTransport _transport;
